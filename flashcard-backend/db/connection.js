@@ -2,9 +2,9 @@ const mysql = require('mysql2');
 
 const connection = mysql.createConnection({
     host: 'localhost',
-    user: 'root',
-    password: 'Air.agrawal',
-    database: 'flashcard_app'
+    user: 'username',
+    password: 'password',
+    database: 'flashcards_db'
 });
 
 connection.connect(err => {
